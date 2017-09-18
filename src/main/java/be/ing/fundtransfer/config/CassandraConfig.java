@@ -18,7 +18,7 @@ import org.springframework.data.cassandra.repository.config.EnableCassandraRepos
 @EnableCassandraRepositories("be.ing.fundtransfer.repository")
 public class CassandraConfig extends AbstractCassandraConfiguration{
 	
-    private static final String KEYSPACE = "FundTransferApp";
+    private static final String KEYSPACE = "FundTransfer";
     private static final String USERNAME = "cassandra";
     private static final String PASSWORD = "cassandra";
     private static final String NODES = "127.0.0.1"; // comma seperated nodes
